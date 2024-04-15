@@ -1,0 +1,18 @@
+- [x] fibe
+    - [x] forntend
+    - [x] backend
+- [ ] faircent
+    - [ ] forntend
+    - [ ] backend
+- [x] finnable
+    - [x] forntend
+    - [x] backend
+- [x] lendingKart
+    - [x] forntend
+    - [x] backend
+- [x] moneywide
+    - [x] forntend
+    - [x] backend
+- [x] upwards
+    - [x] forntend
+    - [x] backend

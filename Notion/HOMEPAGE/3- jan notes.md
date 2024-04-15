@@ -1,0 +1,1 @@
+get_auth goes to both “create new user” and “login with OTP”, both can have multiple details like dob salary etc to add to the profile.

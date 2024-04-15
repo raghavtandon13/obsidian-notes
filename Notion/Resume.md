@@ -1,0 +1,8 @@
+- Python Java Ruby C++
+- Django Flask
+- MySQL Mongo DB
+- REST API GRAPHQL
+- Servers Apache Ngnix
+- Problem Solving (DSA)
+- Communication
+- blind 75

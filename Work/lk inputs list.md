@@ -1,0 +1,26 @@
+- [x] firstName
+- [x] lastName
+- [x] email
+- [x] mobile
+- [x] personalDob
+- [x] personalPAN
+- [x] gender
+- [x] personalAddress
+  - [x] pincode
+  - [x] city
+  - [x] state
+- [x] loanAmount
+- [x] productType
+- [x] uniqueId
+- [x] cibilConsentForLK
+- [ ] otherFields
+  - [x] consentTimestamp
+  - [x] employmentType
+  - [x] monthlySalary
+  - [x] monthlyProfit
+  - [x] tenure
+  - [ ] itrFiled
+  - [ ] itrRange
+  - [x] ~~maritalStatus~~
+  - [x] companyName
+  - [x] companyEmailId
