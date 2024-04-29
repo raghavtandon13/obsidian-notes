@@ -1,4 +1,4 @@
-
+>FIBE
 ## URL (POST REQ)
 ```
 https://credmantra.com/api/v1/partner-api/fibe
