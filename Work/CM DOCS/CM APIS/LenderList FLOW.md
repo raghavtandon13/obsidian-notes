@@ -11,13 +11,13 @@ If user has ```eformFilled === true``` then move on to lender list.
 https://credmantra.com/api/v1/auth/eli
 ```
 **BODY**
-```
+```json
     {
         name: '',
         email: '',
         phone: '',
         dob: '',
-        employmentType: '',
+        employmentType: '', // ['Salaried', 'Self-employed', 'No-employment']
         ammount: '',
         income: '',
         pincode: '',
