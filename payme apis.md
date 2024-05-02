@@ -30,11 +30,10 @@ curl -L -X POST 'https://weedori.paymeindia.in/api/authentication/register_user_
 
 # 3. Check USER
 ```bash
- curl -L -X POST 'https://weedori.paymeindia.in/api/authentication/check_user_merchant' -H 'Content-Type: application/json' --data-raw '{
-    "merchant_id": "98cdbb76-30c2-4bc8-9656-774350eabe8d",
-    "pan_card_number": "BHNPC2752A",
-    "email": "string@gmail.com",
-    "phone_number": "+919818241609"
+ curl -L -X POST 'https://weedori.paymeindia.in/api/authentication/authenticate_user_merchant' -H 'Content-Type: application/json' --data-raw '{
+    "phone_number": "8096656656",
+    "email": "cmtestuser@gmail.com",
+    "merchant_id": "98cdbb76-30c2-4bc8-9656-774350eabe8d"
 }'
 ```
 
