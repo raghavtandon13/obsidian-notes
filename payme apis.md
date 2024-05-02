@@ -9,7 +9,7 @@
 ```
 
 ```json
-{"message":"Authenticate Api Stucked into exception!!","error":"phone_number required !!"}%
+{"message":"Authenticate Api Stucked into exception!!","error":"phone_number required !!"}
 ```
 # 2. Register User
 ```bash
@@ -22,7 +22,7 @@ curl -L -X POST 'https://weedori.paymeindia.in/api/authentication/register_user_
 ```
 
 ```json
-{"message":"Signed-in Successfully","data":{"refresh":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcxNDg4ODY5NywianRpIjoiZjI3ZTlmZDUwM2ZmNDlmMTgzYzk2MWQ1NWQ0ZDc0NDciLCJlbWFpbCI6ImNtdGVzdHVzZXJAZ21haWwuY29tIn0.pXfVWUnHl0d-Q1xH9JNCiAz7F5H_jJ00TBV5LQiCz3I","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0NjM2Njk3LCJqdGkiOiIwNjBlYmNlMTBlNGE0ODU2YjIyMDY0ODMwYzgwOTM4OSIsImVtYWlsIjoiY210ZXN0dXNlckBnbWFpbC5jb20ifQ.-WxlfvvlCaOoKzZgXWs_znyBnPOZ8DonbeM1OvFoNOI"},"user_id":5556932}%
+{"message":"Signed-in Successfully","data":{"refresh":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcxNDg4ODY5NywianRpIjoiZjI3ZTlmZDUwM2ZmNDlmMTgzYzk2MWQ1NWQ0ZDc0NDciLCJlbWFpbCI6ImNtdGVzdHVzZXJAZ21haWwuY29tIn0.pXfVWUnHl0d-Q1xH9JNCiAz7F5H_jJ00TBV5LQiCz3I","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0NjM2Njk3LCJqdGkiOiIwNjBlYmNlMTBlNGE0ODU2YjIyMDY0ODMwYzgwOTM4OSIsImVtYWlsIjoiY210ZXN0dXNlckBnbWFpbC5jb20ifQ.-WxlfvvlCaOoKzZgXWs_znyBnPOZ8DonbeM1OvFoNOI"},"user_id":5556932}
 ```
 # 3. Auth USER
 ```bash
@@ -34,7 +34,7 @@ curl -L -X POST 'https://weedori.paymeindia.in/api/authentication/register_user_
 ```
 
 ```json
-{"message":"Authenticate Api Stucked into exception!!","error":"phone_number required !!"}%
+{"message":"Authenticate Api Stucked into exception!!","error":"phone_number required !!"}
 ```
 
 
