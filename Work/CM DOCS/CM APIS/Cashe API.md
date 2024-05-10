@@ -41,12 +41,25 @@ https://credmantra.com/api/v1/partner-api/cashe/preApproval
 ```
  
  If  ```message === "Success" ``` then move to stage 3 else show recieved error.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 ----
 
 # Stage 3 - Create Customer
 
-> USER will not fill this form, this form is exactly  the same as previous, when user clicks on "Apply " after stage 2 this form should automatically be sent to the 
+> USER will not fill this form, this form is exactly  the same as previous, when user clicks on "Apply " after stage 2 this form should automatically be generated and sent.
 
 ```json
 {
@@ -76,4 +89,3 @@ https://credmantra.com/api/v1/partner-api/cashe/preApproval
 ```
 https://credmantra.com/api/v1/partner-api/cashe/createCustomer
 ```
- If  ```Payload  === "NO" ``` then move to stage 2 else show "**Customer Already Registered with Cashe**"
