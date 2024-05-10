@@ -57,31 +57,35 @@ https://credmantra.com/api/v1/partner-api/cashe/preApproval
 
 ----
 
+
+<div style="page-break-after: always;"></div>
+
+
 # Stage 3 - Create Customer
 
-> USER will not fill this form, this form is exactly  the same as previous, when user clicks on "Apply " after stage 2 this form should automatically be generated and sent.
+> **USER will not fill this form, this form is exactly  the same as previous, when user clicks on "Apply " after stage 2 this form should automatically be generated and sent.**
 
 ```json
 {
                 partner_name: "CredMantra_Partner1",
                 "Personal Information": {
-                    "First Name": lead.firstName,
-                    Gender: lead.gender[0].toUpperCase() + lead.gender.slice(1).toLowerCase(),
-                    "Address Line 1": casheReq.addressLine1,
-                    Pincode: casheReq.pinCode,
-                    City: casheReq.city,
-                    State: casheReq.state,
-                    PAN: casheReq.pan,
+                    "First Name": firstName,
+                    Gender: "Male"/"Female",
+                    "Address Line 1": addressLine1,
+                    Pincode: pinCode,
+                    City: city,
+                    State: state,
+                    PAN: pan,
                 },
                 "Applicant Information": {
-                    "Company Name": casheReq.companyName || "OTHERS",
-                    "Monthly Income": casheReq.salary,
+                    "Company Name": "company",
+                    "Monthly Income": salary,
                     "Employment Type": "Salaried full-time",
-                    SalaryReceivedTypeId: casheReq.salaryReceivedType,
+                    SalaryReceivedTypeId: salaryReceivedType,
                 },
                 "Contact Information": {
-                    Mobile: casheReq.mobileNo,
-                    "Email Id": casheReq.emailId,
+                    Mobile: mobileNo,
+                    "Email Id": emailId,
                 },
             }
 ```
@@ -89,3 +93,10 @@ https://credmantra.com/api/v1/partner-api/cashe/preApproval
 ```
 https://credmantra.com/api/v1/partner-api/cashe/createCustomer
 ```
+
+
+## MISC
+![[Pasted image 20240510125318.png]]
+
+
+
