@@ -96,7 +96,7 @@ https://credmantra.com/api/v1/partner-api/cashe/createCustomer
 
 
 ## MISC
-![[Pasted image 20240510125318.png]]
+![[Pasted image 20240510125318.png|300]]
 
 
 
