@@ -36,6 +36,8 @@ If ```is_eligible === true``` move forward
 https://credmantra.com/api/v1/partner-api/upwards/create
 ```
 If successful take ```loan_id``` and ```customer_id``` for result.
+<div style="page-break-after: always;"></div>
+
 3. **Complete API** -
 ```json
 {
@@ -70,3 +72,4 @@ https://credmantra.com/api/v1/partner-api/upwards/transition
 ```
 
 
+![[Pasted image 20240515141624.png]]
