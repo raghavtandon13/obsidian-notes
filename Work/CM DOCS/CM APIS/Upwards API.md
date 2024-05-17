@@ -73,3 +73,4 @@ https://credmantra.com/api/v1/partner-api/upwards/transition
 
 
 ![[Pasted image 20240515141624.png]]
+![[Pasted image 20240515141652.png]]
