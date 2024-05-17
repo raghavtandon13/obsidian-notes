@@ -22,6 +22,7 @@ Creating a balanced and nutritious diet plan tailored to your height, weight, ag
 #### **Mid-Morning Snack (10:30-11:00 AM)**
 - **Fruit**: One apple or a handful of berries or any seasonal fruit.
 - **Nuts**: A handful of mixed nuts (almonds, cashews, walnuts).
+  > try around 12
 
 #### **Lunch (1:00-2:00 PM)**
 - **Option 1**: 2-3 chapatis with a bowl of dal (lentils), a vegetable curry (like mixed vegetable, bhindi, or baingan), and a side salad.
