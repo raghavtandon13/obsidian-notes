@@ -1,4 +1,5 @@
 # Overview
+
 1. **Register User** - It will send an OTP to the input mobile number.
 
 2. **Login User** - It will generate a JWT token for that user to be further used in other APIs.
@@ -11,12 +12,11 @@
 
 6. **Apply Loan | BL** - It is used to apply for Business Loan. It will include all the fields fetched from "Required Loan Details | BL" API in request body.
 
-  
-
 Below are the details to use Vitto APIs in **staging** environment (these are the two headers which needs to be passed to all API requests) - 
 
 >**X-Partner-API-Key**: 7ba1d96dfc74f0eed67d351e0f7830d2dae8eb732f47e4e8e4a138143008765b  
-**X-Partner-Id**: ceba5f64579232655bd11627ae3f0023
+>**X-Partner-Id**: ceba5f64579232655bd11627ae3f0023
+
 # 1. Register User
 ```bash
 curl -L -X POST 'https://apis-staging.vitto.money/users/api/v1/ext/register' -H 'X-Partner-Id: ceba5f64579232655bd11627ae3f0023' -H 'X-Partner-API-Key: 7ba1d96dfc74f0eed67d351e0f7830d2dae8eb732f47e4e8e4a138143008765b' -H 'Content-Type: application/json' -d '{
@@ -263,7 +263,7 @@ curl -L -X POST 'https://apis-staging.vitto.money/loans/api/v1/loans/ext/leads' 
     "errorDescription": "Request body has invalid/missing data for field: [object Object].",
     "debug-Ref-ID": "00491da0-faf4-11ee-ab37-c3b09c8c9466"
 }
-``` 
+```
 ```json
 {
     "errorCode": "activeApplicationPresent",
