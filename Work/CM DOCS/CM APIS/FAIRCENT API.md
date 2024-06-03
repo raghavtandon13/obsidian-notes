@@ -22,7 +22,10 @@ If ```is_eligible === true``` move forward
         mobile: "9999999999",
         gender: "male/female",
         email: "",
-        
+        address:"",
+        locality:"",
+        pin:"",
+        city:""
         current_pincode: "121212",
         current_city: "",
         current_state: "",
