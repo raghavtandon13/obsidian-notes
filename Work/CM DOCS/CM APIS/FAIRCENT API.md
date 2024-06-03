@@ -39,12 +39,7 @@ If successful take ```loan_id``` and ```customer_id``` for result.
 <div style="page-break-after: always;"></div>
 
 3. **Document Upload API** -
-```json
-{
-	loan_id: "from prev result",
-    customer_id: "from prev result"
-}
-```
+``
 ```
 https://credmantra.com/api/v1/partner-api/faircent/upload
 ```
