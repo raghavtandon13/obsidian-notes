@@ -20,7 +20,7 @@ If ```is_eligible === true``` move forward
         gender: "",
         pan: "",
         mobile: "9999999999",
-        gender: "male/female",
+        gender: "M/F",
         email: "",
         address:"",
         locality:"",
@@ -29,16 +29,7 @@ If ```is_eligible === true``` move forward
         state:"",
         monthly_income:"",
         employemnet_status:"",
-        loan
-        current_pincode: "121212",
-        current_city: "",
-        current_state: "",
-        company: "company",
-        employment_status_id: 3, // check below
-        profession_type_id: 21, // check below
-        salary_payment_mode_id: 2, // check below
-        salary: 75000, //integer
-        consent: true,
+        loan_amount:""
 }
 ```
 ```
