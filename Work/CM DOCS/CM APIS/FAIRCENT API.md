@@ -35,8 +35,8 @@ If ```is_eligible === true``` move forward
 	    "consent": 'Y',
         "tnc_link": 'https://www.faircent.in/terms-conditions',
         "sign_ip": '122.161.8.133',
-        sign_time": 1234567890,
-        loan_purpose: 1364,
+        "sign_time": 1234567890,
+        "loan_purpose": 1364,
 
 }
 ```
