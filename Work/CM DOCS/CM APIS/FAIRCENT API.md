@@ -40,9 +40,10 @@ If successful take ```loan_id``` and ```customer_id``` for result.
 
 3. **Document Upload API** -
 
-| docI |     |
-| ---- | --- |
-|      |     |
+| KEY      | VALUE        |
+| -------- | ------------ |
+| docImage | //image here |
+| loan_id  |              |
 ```
 https://credmantra.com/api/v1/partner-api/faircent/upload
 ```
