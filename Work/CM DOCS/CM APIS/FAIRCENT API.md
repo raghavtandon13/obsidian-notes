@@ -7,11 +7,11 @@
 }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/
+https://credmantra.com/api/v1/partner-api/faircent/dedupe
 ```
 If ```is_eligible === true``` move forward
 
-2. **Create API** -
+2. **Register API** -
 ```json
  {
         first_name: "",
@@ -33,7 +33,7 @@ If ```is_eligible === true``` move forward
 }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/upwards/create
+https://credmantra.com/api/v1/partner-api/faircent/register
 ```
 If successful take ```loan_id``` and ```customer_id``` for result.
 <div style="page-break-after: always;"></div>
