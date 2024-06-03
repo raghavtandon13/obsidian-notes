@@ -18,10 +18,11 @@ If ```is_eligible === true``` move forward
         lname: "",
         dob: 1988-12-29,
         gender: "",
-        
+        pan: "",
+        mobile: "9999999999",
         gender: "male/female",
-        social_email_id: "",
-        mobile_number1: "9999999999",
+        email: "",
+        
         current_pincode: "121212",
         current_city: "",
         current_state: "",
