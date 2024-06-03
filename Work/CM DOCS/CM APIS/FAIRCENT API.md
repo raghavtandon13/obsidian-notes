@@ -9,7 +9,7 @@
 ```
 https://credmantra.com/api/v1/partner-api/faircent/dedupe
 ```
-If ```is_eligible === true``` move forward
+If ```message === 'No Duplicate Record Found.``` move forward
 
 2. **Register API** -
 ```json
@@ -43,7 +43,8 @@ If ```is_eligible === true``` move forward
 ```
 https://credmantra.com/api/v1/partner-api/faircent/register
 ```
-If successful take ```loan_id``` and ```customer_id``` for result.
+
+status === 'Approved'.
 <div style="page-break-after: always;"></div>
 
 3. **Document Upload API** -
