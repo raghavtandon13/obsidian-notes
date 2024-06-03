@@ -44,7 +44,7 @@ If ```message === 'No Duplicate Record Found.``` move forward
 https://credmantra.com/api/v1/partner-api/faircent/register
 ```
 
-status === 'Approved'.
+IF ```status === 'Approved'``` then :
 <div style="page-break-after: always;"></div>
 
 3. **Document Upload API** -
