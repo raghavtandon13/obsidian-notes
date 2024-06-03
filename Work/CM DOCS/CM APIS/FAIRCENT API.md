@@ -14,10 +14,11 @@ If ```is_eligible === true``` move forward
 2. **Register API** -
 ```json
  {
-        first_name: "",
-        last_name: "",
-        pan: "",
+        fname: "",
+        lname: "",
         dob: 1988-12-29,
+        gender: "",
+        
         gender: "male/female",
         social_email_id: "",
         mobile_number1: "9999999999",
