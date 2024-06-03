@@ -48,14 +48,15 @@ If successful take ```loan_id``` and ```customer_id``` for result.
 
 3. **Document Upload API** -
 **FORMDATA**
-IF 
+IF salaried then aadhaar , bank statement, pan 
+if self empl
 
-| KEY      | VALUE                           |
-| -------- | ------------------------------- |
-| docImage | //image here                    |
-| loan_id  | from Register API ressponse     |
-| token    | from Register API ressponse     |
-| type     | AADHAAR/BANK_STATEMENT/PANCARD/ |
+| KEY      | VALUE                                                |
+| -------- | ---------------------------------------------------- |
+| docImage | //image here                                         |
+| loan_id  | from Register API ressponse                          |
+| token    | from Register API ressponse                          |
+| type     | AADHAAR/BANK_STATEMENT/PANCARD/ITR1/SELFVERIFICATION |
 ```
 https://credmantra.com/api/v1/partner-api/faircent/upload
 ```
