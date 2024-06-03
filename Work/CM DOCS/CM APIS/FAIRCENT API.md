@@ -25,7 +25,11 @@ If ```is_eligible === true``` move forward
         address:"",
         locality:"",
         pin:"",
-        city:""
+        city:"",
+        state:"",
+        monthly_income:"",
+        employemnet_status:"",
+        loan
         current_pincode: "121212",
         current_city: "",
         current_state: "",
