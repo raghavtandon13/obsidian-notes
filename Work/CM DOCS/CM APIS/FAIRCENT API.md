@@ -7,7 +7,7 @@
 }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/upwards/eligibility
+https://credmantra.com/api/v1/partner-api/
 ```
 If ```is_eligible === true``` move forward
 
