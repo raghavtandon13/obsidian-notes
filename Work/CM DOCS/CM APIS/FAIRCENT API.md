@@ -1,8 +1,8 @@
 1. **Dedupe API** -
 ```json
 {
-        mobile_number: "8094634634"
-        social_email_id: "abc@xyz.com",
+        mobile: "8094634634"
+        email: "abc@xyz.com",
         pan: "XXXXX0000X",
 }
 ```
