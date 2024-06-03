@@ -49,7 +49,7 @@ If successful take ```loan_id``` and ```customer_id``` for result.
 3. **Document Upload API** -
 **FORMDATA**
 IF salaried then aadhaar , bank statement, pan 
-if self empl
+if self employed then aadhaar , bank statement, pan && ITR1 (ITR) , SELFVERIFICATION (Udyam)
 
 | KEY      | VALUE                                                |
 | -------- | ---------------------------------------------------- |
