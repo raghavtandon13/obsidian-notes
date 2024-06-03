@@ -32,10 +32,10 @@ If ```is_eligible === true``` move forward
         loan_amount:""
         //--------
         // Below details are same for every request
-	    consent: 'Y',
-        tnc_link: 'https://www.faircent.in/terms-conditions',
-        sign_ip: '122.161.8.133',
-        sign_time: 1234567890,
+	    "consent": 'Y',
+        "tnc_link": 'https://www.faircent.in/terms-conditions',
+        "sign_ip": '122.161.8.133',
+        sign_time": 1234567890,
         loan_purpose: 1364,
 
 }
