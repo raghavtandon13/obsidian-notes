@@ -50,11 +50,12 @@ If successful take ```loan_id``` and ```customer_id``` for result.
 **FORMDATA**
 IF 
 
-| KEY      | VALUE                       |
-| -------- | --------------------------- |
-| docImage | //image here                |
-| loan_id  | from Register API ressponse |
-| token    | from Register API ressponse |
+| KEY      | VALUE                           |
+| -------- | ------------------------------- |
+| docImage | //image here                    |
+| loan_id  | from Register API ressponse     |
+| token    | from Register API ressponse     |
+| type     | AADHAAR/BANK_STATEMENT/PANCARD/ |
 ```
 https://credmantra.com/api/v1/partner-api/faircent/upload
 ```
