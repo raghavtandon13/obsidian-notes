@@ -45,7 +45,6 @@ https://credmantra.com/api/v1/partner-api/faircent/register
 ```
 
 IF ```status === 'Approved'``` then :
-<div style="page-break-after: always;"></div>
 
 3. **Document Upload API** -
 **FORMDATA**
