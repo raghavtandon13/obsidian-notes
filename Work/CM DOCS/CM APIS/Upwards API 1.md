@@ -32,7 +32,7 @@ If successful take ```loan_id``` and ```customer_id``` for result.
                 lastName: "",
                 personalEmailId: "",
                 gender: "Male", // "Female"
-                dob: lead.dob.split("-").reverse().join("/"),
+                dob: "28/10/1998", // dd/mm
                 panNumber: lead.pan.toUpperCase(),
                 employmentType: "salaried",
                 desiredLoanAmount: 150000,
