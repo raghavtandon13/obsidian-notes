@@ -31,7 +31,7 @@ If successful take ```loan_id``` and ```customer_id``` for result.
                 firstName: "",
                 lastName: "",
                 personalEmailId: "",
-                gender: "Male", // "Femal"
+                gender: "Male", // "Female"
                 dob: lead.dob.split("-").reverse().join("/"),
                 panNumber: lead.pan.toUpperCase(),
                 employmentType: "salaried",
