@@ -19,20 +19,30 @@ If ```duplicateFound === false``` move forward
 }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/upwards/create
+https://credmantra.com/api/v1/partner-api/prefr/start2
 ```
 If successful take ```loan_id``` and ```customer_id``` for result.
 <div style="page-break-after: always;"></div>
 
-3. **Complete API** -
+3. **Details API** -
 ```json
 {
-	loan_id: "from prev result",
-    customer_id: "from prev result"
+                loanId: prefrStartRes.data.data.loanId,
+                firstName: lead.firstName,
+                lastName: lead.lastName,
+                personalEmailId: lead.email,
+                gender: lead.gender.charAt(0).toUpperCase() + lead.gender.slice(1).toLowerCase(),
+                dob: lead.dob.split("-").reverse().join("/"),
+                panNumber: lead.pan.toUpperCase(),
+                employmentType: "salaried",
+                desiredLoanAmount: 150000,
+                netMonthlyIncome: parseInt(lead.salary),
+                currentAddressPincode: lead.pincode.toString(),
+                currentAddress: "address 1",
 }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/upwards/complete
+https://credmantra.com/api/v1/partner-api/prefr/details
 ```
 if prev is successful then ->
 4. **Decision API** -
