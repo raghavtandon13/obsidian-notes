@@ -1,9 +1,9 @@
 1. **Dedupe API** -
 ```json
 {
-        mobileNumber: "" //phone,
-        panNumber: "" //pan,
-        personalEmailId: "" //email,
+        mobileNumber: "", //phone,
+        panNumber: "", //pan,
+        personalEmailId: "", //email,
         productName: "pl",
     }
 ```
