@@ -1,9 +1,9 @@
 1. **Dedupe API** -
 ```json
 {
-        mobileNumber: //phone,
-        panNumber: //pan,
-        personalEmailId: //email,
+        mobileNumber: "" //phone,
+        panNumber: "" //pan,
+        personalEmailId: "" //email,
         productName: "pl",
     }
 ```
@@ -27,8 +27,8 @@ If successful take ```loan_id``` and ```customer_id``` for result.
 3. **Details API** -
 ```json
 {
-                loanId: prefrStartRes.data.data.loanId,
-                firstName: lead.firstName,
+                loanId: //from start api,
+                firstName: //firstName,
                 lastName: lead.lastName,
                 personalEmailId: lead.email,
                 gender: lead.gender.charAt(0).toUpperCase() + lead.gender.slice(1).toLowerCase(),
