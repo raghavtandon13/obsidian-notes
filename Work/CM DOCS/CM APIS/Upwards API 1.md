@@ -37,36 +37,10 @@ If successful take ```loan_id``` and ```customer_id``` for result.
                 employmentType: "salaried",
                 desiredLoanAmount: 150000, // Number
                 netMonthlyIncome: 50000, // Number
-                currentAddressPincode: "110",
+                currentAddressPincode: "110009",
                 currentAddress: "address 1",
 }
 ```
 ```
 https://credmantra.com/api/v1/partner-api/prefr/details
 ```
-if prev is successful then ->
-4. **Decision API** -
-```json
-{
-	loan_id: "from prev result",
-    customer_id: "from prev result"
-}
-```
-```
-https://credmantra.com/api/v1/partner-api/upwards/decision
-```
-5.  **Transition API** - 
-Finally show button "Go to UPWARDS" and redirect to transition url.
-```json
-{
-	loan_id: "from prev result",
-    customer_id: "from prev result"
-}
-```
-```
-https://credmantra.com/api/v1/partner-api/upwards/transition
-```
-
-
-![[Pasted image 20240515141624.png]]
-![[Pasted image 20240515141652.png]]
