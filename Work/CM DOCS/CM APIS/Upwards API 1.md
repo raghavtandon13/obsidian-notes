@@ -8,9 +8,9 @@
     }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/upwards/eligibility
+https://credmantra.com/api/v1/partner-api/prefr/dedupe
 ```
-If ```is_eligible === true``` move forward
+If ```duplicateFound === false``` move forward
 
 2. **Create API** -
 ```json
