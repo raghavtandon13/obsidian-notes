@@ -27,11 +27,11 @@ If successful take ```loan_id``` and ```customer_id``` for result.
 3. **Details API** -
 ```json
 {
-                loanId: //from start api,
-                firstName: //firstName,
-                lastName: lead.lastName,
-                personalEmailId: lead.email,
-                gender: lead.gender.charAt(0).toUpperCase() + lead.gender.slice(1).toLowerCase(),
+                loanId: "", //from start api response
+                firstName: "",
+                lastName: "",
+                personalEmailId: "",
+                gender: "Male", // "Femal"
                 dob: lead.dob.split("-").reverse().join("/"),
                 panNumber: lead.pan.toUpperCase(),
                 employmentType: "salaried",
