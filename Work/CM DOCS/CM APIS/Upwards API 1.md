@@ -32,12 +32,12 @@ If successful take ```loan_id``` and ```customer_id``` for result.
                 lastName: "",
                 personalEmailId: "",
                 gender: "Male", // "Female"
-                dob: "28/10/1998", // dd/mm
-                panNumber: lead.pan.toUpperCase(),
+                dob: "28/10/1998", // dd/mm/yyyy
+                panNumber: "",
                 employmentType: "salaried",
-                desiredLoanAmount: 150000,
-                netMonthlyIncome: parseInt(lead.salary),
-                currentAddressPincode: lead.pincode.toString(),
+                desiredLoanAmount: 150000, // Number
+                netMonthlyIncome: 50000, // Number
+                currentAddressPincode: "110",
                 currentAddress: "address 1",
 }
 ```
