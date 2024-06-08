@@ -1,11 +1,6 @@
 1. **Dedupe API** -
 ```json
-{
-        mobileNumber: "", //phone,
-        panNumber: "", //pan,
-        personalEmailId: "", //email,
-        productName: "pl",
-    }
+{ mobileNumber: lead.phone, panNumber: lead.pan }
 ```
 ```
 https://credmantra.com/api/api/v1/partner-api/zype/dedupe
@@ -13,7 +8,7 @@ https://credmantra.com/api/api/v1/partner-api/zype/dedupe
 If ```status === "ACCEPT"``` move forward
 2. **Offer API** -
 ```json
-{
+	{
         mobileNumber: "12345678",
         email: "email@email.com",
         panNumber: "ABCDEXXXXL",
@@ -23,7 +18,7 @@ If ```status === "ACCEPT"``` move forward
         income: 90000, // Number
         orgName: "my company",
 	    bureauType: 3, // fixed value
-}
+	}
 ```
 ```
 https://credmantra.com/api/v1/partner-api/zype/offer
