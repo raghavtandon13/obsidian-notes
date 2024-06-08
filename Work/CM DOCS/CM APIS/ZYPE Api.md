@@ -19,9 +19,9 @@ If ```status === "ACCEPT"``` move forward
             panNumber: "ABCDEXXXXL",
             name: "full name",
             dob: "YYYY-MM-DD",
-            employmentType: "salaried",
-            income: parseInt(lead.salary) || 30000,
-            orgName: lead.empName || "COMPANY",
+            employmentType: "", //‘salaried’ or ‘selfemployed’
+            income: 90000, // Number
+            orgName: "my company",
             bureauType: 3,
         }
 ```
