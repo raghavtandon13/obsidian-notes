@@ -1,7 +1,10 @@
 ## 1. **Dedupe API** -
    
 ```json
-{ mobileNumber: lead.phone, panNumber: lead.pan }
+{ 
+	mobileNumber: "1234567890",
+	panNumber: "ABCDEXXXXF"
+}
 ```
 ```
 https://credmantra.com/api/api/v1/partner-api/zype/dedupe
