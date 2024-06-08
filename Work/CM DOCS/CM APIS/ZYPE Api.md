@@ -14,20 +14,17 @@ If ```status === "ACCEPT"``` move forward
 2. **Offer API** -
 ```json
 {
-                loanId: "", //from start api response
-                firstName: "",
-                lastName: "",
-                personalEmailId: "",
-                gender: "Male", // "Female"
-                dob: "28/10/1998", // dd/mm/yyyy
-                panNumber: "",
-                employmentType: "salaried",
-                desiredLoanAmount: 150000, // Number
-                netMonthlyIncome: 50000, // Number
-                currentAddressPincode: "110009",
-                currentAddress: "address 1",
-}
+            mobileNumber: "12345678",
+            email: "email@email.com",
+            panNumber: "A",
+            name: lead.firstName + " " + lead.lastName,
+            dob: lead.dob,
+            employmentType: "salaried",
+            income: parseInt(lead.salary) || 30000,
+            orgName: lead.empName || "COMPANY",
+            bureauType: 3,
+        }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/prefr/details
+https://credmantra.com/api/v1/partner-api/zype/offer
 ```
