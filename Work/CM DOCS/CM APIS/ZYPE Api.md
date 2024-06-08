@@ -8,6 +8,6 @@
     }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/prefr/dedupe
+https://credmantra.com/api/api/v1/partner-api/zype/dedupe
 ```
-If ```duplicateFound === false``` move forward
+If ``status === "ACCEPT" move forward
