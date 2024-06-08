@@ -22,8 +22,8 @@ If ```status === "ACCEPT"``` move forward
             employmentType: "", //‘salaried’ or ‘selfemployed’
             income: 90000, // Number
             orgName: "my company",
-            bureauType: 3,
-        }
+            bureauType: 3, // fixed value
+}
 ```
 ```
 https://credmantra.com/api/v1/partner-api/zype/offer
