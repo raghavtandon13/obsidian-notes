@@ -23,7 +23,6 @@
     - [x] current_pincode
     - [x] current_city
     - [x] current_state
-    
     - current_residence_stay_category_id
 4. **Employment Information:**
     - [x] company
