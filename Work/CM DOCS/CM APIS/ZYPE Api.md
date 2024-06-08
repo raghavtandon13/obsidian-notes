@@ -16,9 +16,9 @@ If ```status === "ACCEPT"``` move forward
 {
             mobileNumber: "12345678",
             email: "email@email.com",
-            panNumber: "A",
-            name: lead.firstName + " " + lead.lastName,
-            dob: lead.dob,
+            panNumber: "ABCDEXXXXL",
+            name: "full name",
+            dob: "YYYY-MM-DD",
             employmentType: "salaried",
             income: parseInt(lead.salary) || 30000,
             orgName: lead.empName || "COMPANY",
