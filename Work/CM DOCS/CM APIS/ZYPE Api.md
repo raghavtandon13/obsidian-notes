@@ -1,4 +1,5 @@
-1. **Dedupe API** -
+## 1. **Dedupe API** -
+   
 ```json
 { mobileNumber: lead.phone, panNumber: lead.pan }
 ```
@@ -6,7 +7,9 @@
 https://credmantra.com/api/api/v1/partner-api/zype/dedupe
 ```
 If ```status === "ACCEPT"``` move forward
-2. **Offer API** -
+
+## 2. **Offer API** -
+   
 ```json
 	{
         mobileNumber: "12345678",
