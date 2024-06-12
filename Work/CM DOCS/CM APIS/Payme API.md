@@ -28,10 +28,10 @@ If ```message = "Signed-in Successfully"``` move forward
 3. **Details API** -
 ```json
 {
-        address: lead.city + " " + lead.state,
-        dob: lead.dob,
-        email: lead.email,
-        first_name: lead.firstName,
+        address: "address city state",
+        dob: "yyyy-mm-dd",
+        email: "email@email.com",
+        first_name: "fi"
         gender: lead.gender[0].toUpperCase() + lead.gender.slice(1).toLowerCase(),
         last_name: lead.lastName,
         pan_card_number: lead.pan,
