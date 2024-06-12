@@ -14,15 +14,15 @@ If ```message = "user_not_found"``` move forward
 2. **REGISTER API** -
 ```json
 {
-        email: lead.email,
+        email: "email@email.com",
         phone_number: "9876543210",
-        full_name: lead.firstName + " " + lead.lastName,
+        full_name: "firstName lastName"
 }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/prefr/start2
+https://credmantra.com/api/v1/partner-api/payme/register
 ```
-If successful take ```loan_id``` and ```customer_id``` for result.
+If `````` move forward
 <div style="page-break-after: always;"></div>
 
 3. **Details API** -
