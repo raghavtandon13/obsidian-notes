@@ -50,6 +50,7 @@ https://credmantra.com/api/v1/partner-api/payme/cibil
 ```
 
 ---
+<div style="page-break-after: always;"></div>
 
 4. **Limit API** -
 ```json
