@@ -9,12 +9,14 @@
 ```
 https://credmantra.com/api/v1/partner-api/payme/dedupe
 ```
-If ```duplicateFound === false``` move forward
+If ```message = "user_not_found"``` move forward
 
-2. **START API** -
+2. **REGISTER API** -
 ```json
 {
-	mobileNo: //phone
+        email: lead.email,
+        phone_number: "9876543210",
+        full_name: lead.firstName + " " + lead.lastName,
 }
 ```
 ```
