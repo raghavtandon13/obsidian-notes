@@ -48,9 +48,9 @@ https://credmantra.com/api/v1/partner-api/payme/cibil
 ```json
 {
             phone_number: "9876543210",
-            token: p2Res.data.data.token,
+            token: "token", // from REGISTER api
 }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/payme/cibil
+https://credmantra.com/api/v1/partner-api/payme/limit
 ```
