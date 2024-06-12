@@ -25,21 +25,21 @@ https://credmantra.com/api/v1/partner-api/payme/register
 If ```message = "Signed-in Successfully"``` move forward
 <div style="page-break-after: always;"></div>
 
-3. **Details API** -
+3. **CI API** -
 ```json
 {
         address: "address city state",
         dob: "yyyy-mm-dd",
         email: "email@email.com",
-        first_name: "firstName"
+        first_name: "firstName",
         gender: "Male", // "Female"
         last_name: "lastName",
         pan_card_number: "ABCDEXXXXF",
         phone_number: "9876543210",
-        pin_code: "110011"
-        token: p2Res.data.data.token,
+        pin_code: "110011",
+        token: "token", // from REGISTER api
     }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/prefr/details
+https://credmantra.com/api/v1/partner-api/payme/cibil
 ```
