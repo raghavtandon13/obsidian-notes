@@ -31,12 +31,12 @@ If ```message = "Signed-in Successfully"``` move forward
         address: "address city state",
         dob: "yyyy-mm-dd",
         email: "email@email.com",
-        first_name: "fi"
-        gender: lead.gender[0].toUpperCase() + lead.gender.slice(1).toLowerCase(),
-        last_name: lead.lastName,
-        pan_card_number: lead.pan,
-        phone_number: lead.phone,
-        pin_code: lead.pincode,
+        first_name: "firstName"
+        gender: "Male", // "Female"
+        last_name: "lastName",
+        pan_card_number: "ABCDEXXXXF",
+        phone_number: "9876543210",
+        pin_code: "110011"
         token: p2Res.data.data.token,
     }
 ```
