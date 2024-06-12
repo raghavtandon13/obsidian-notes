@@ -2,12 +2,12 @@
 ```json
 {
         pan_card_number: "ABCDEXXXXF",
-        email: ",
-        phone_number: lead.phone,
+        email: "email@email.com",
+        phone_number: "9876543210",
 }
 ```
 ```
-https://credmantra.com/api/v1/partner-api/prefr/dedupe
+https://credmantra.com/api/v1/partner-api/payme/dedupe
 ```
 If ```duplicateFound === false``` move forward
 
