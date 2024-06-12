@@ -22,25 +22,23 @@ If ```message = "user_not_found"``` move forward
 ```
 https://credmantra.com/api/v1/partner-api/payme/register
 ```
-If `````` move forward
+If ```message = "Signed-in Successfully"``` move forward
 <div style="page-break-after: always;"></div>
 
 3. **Details API** -
 ```json
 {
-                loanId: "", //from start api response
-                firstName: "",
-                lastName: "",
-                personalEmailId: "",
-                gender: "Male", // "Female"
-                dob: "28/10/1998", // dd/mm/yyyy
-                panNumber: "",
-                employmentType: "salaried",
-                desiredLoanAmount: 150000, // Number
-                netMonthlyIncome: 50000, // Number
-                currentAddressPincode: "110009",
-                currentAddress: "address 1",
-}
+        address: lead.city + " " + lead.state,
+        dob: lead.dob,
+        email: lead.email,
+        first_name: lead.firstName,
+        gender: lead.gender[0].toUpperCase() + lead.gender.slice(1).toLowerCase(),
+        last_name: lead.lastName,
+        pan_card_number: lead.pan,
+        phone_number: lead.phone,
+        pin_code: lead.pincode,
+        token: p2Res.data.data.token,
+    }
 ```
 ```
 https://credmantra.com/api/v1/partner-api/prefr/details
