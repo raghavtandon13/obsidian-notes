@@ -11,6 +11,8 @@ https://credmantra.com/api/v1/partner-api/payme/dedupe
 ```
 If ```message = "user_not_found"``` move forward
 
+---
+
 2. **REGISTER API** -
 ```json
 {
@@ -23,7 +25,10 @@ If ```message = "user_not_found"``` move forward
 https://credmantra.com/api/v1/partner-api/payme/register
 ```
 If ```message = "Signed-in Successfully"``` move forward
-<div style="page-break-after: always;"></div>
+
+---
+
+
 
 3. **Cibil API** -
 ```json
@@ -44,6 +49,8 @@ If ```message = "Signed-in Successfully"``` move forward
 https://credmantra.com/api/v1/partner-api/payme/cibil
 ```
 
+---
+
 4. **Limit API** -
 ```json
 {
@@ -54,3 +61,5 @@ https://credmantra.com/api/v1/partner-api/payme/cibil
 ```
 https://credmantra.com/api/v1/partner-api/payme/limit
 ```
+
+---
