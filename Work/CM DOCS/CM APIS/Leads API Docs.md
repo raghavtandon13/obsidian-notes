@@ -47,6 +47,7 @@ curl -s -L 'http://localhost:3000/api/v1/leads/inject'
         "pan": "AXNPT8654K",
         "empName": "MOBIHUB REFURB INTERNATIONAL",
         "salary": "78040"
+        "consent": "2023-11-01 04:40:04" // ADD CONSENT FIELD
     }
 }' | jq
 ```
