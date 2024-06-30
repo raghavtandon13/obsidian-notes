@@ -13,9 +13,7 @@ curl --request POST \
 ```
 
 ```json
-{
-  "message": "ACCEPT"
-}
+{ "message": "ACCEPT" }
 ```
 
 # PreApprovalOffer
@@ -41,8 +39,5 @@ curl --request POST \
 ```
 
 ```json
-{
-  "status": "ACCEPT",
-  "offer": 150000
-}
+{ "status": "ACCEPT", "offer": 150000 }
 ```
